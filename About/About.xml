@@ -3,12 +3,9 @@
     <packageId>huansen.MiliraSOS2</packageId>
     <name>Milira Race SOS2EXP</name>
     <author>HuanSen233</author>
-    <modVersion>V1f1</modVersion>
-    <description>
-    给米莉拉装备和米莉安上sos2补丁
-    </description>
-
-    <supportedVersions><li>1.5</li></supportedVersions>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
     <modDependencies>
         <li>
             <packageId>kentington.saveourship2</packageId>
@@ -24,6 +21,11 @@
 		<li>kentington.saveourship2</li>
 		<li>Ancot.MiliraRace</li>
 	</loadAfter>
+
+    <modVersion>V1f1</modVersion>
+    <description>
+    给米莉拉装备和米莉安上sos2补丁
+    </description>
 
     <url>https://github.com/HuanSen233/MiliraSOS2</url>
 </ModMetaData>

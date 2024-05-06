@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--护甲 armor-->
+	<Operation Class="PatchOperationSequence">
+        <operations>
+            <!--瓦尔基里 Valkyr=================================================================-->
+            <!--米莉拉瓦尔基里战盔 Milira_ValkyrHelmet-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Milira_ValkyrHelmet"]/statBases/Insulation_Cold</xpath>
+                <value>
+			        <Insulation_Cold>50</Insulation_Cold>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milira_ValkyrHelmet"]/equippedStatOffsets</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>0.25</DecompressionResistance>
+                </value>
+            </li>
+            <!--米莉拉瓦尔基里战甲 Milira_ValkyrArmor-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Milira_ValkyrArmor"]/statBases/Insulation_Cold</xpath>
+                <value>
+			        <Insulation_Cold>100</Insulation_Cold>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milira_ValkyrArmor"]/equippedStatOffsets</xpath>
+                <value>
+                    <DecompressionResistance>0.75</DecompressionResistance>
+                    <VacuumSpeedMultiplier>5</VacuumSpeedMultiplier>
+                </value>
+            </li>
+
+            <!--阿忒弥斯 Artemis=================================================================-->
+            <!--米莉拉阿忒弥斯之眼 Milira_ArtemisHelmet-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milira_ArtemisHelmet"]/statBases</xpath>
+                <value>
+			        <Insulation_Cold>50</Insulation_Cold>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milira_ArtemisHelmet"]/equippedStatOffsets</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>0.25</DecompressionResistance>
+                </value>
+            </li>
+            <!--米莉拉阿忒弥斯战甲（突击） Milira_ArtemisArmor-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milira_ArtemisArmor"]</xpath>
+                <value>
+                    <statBases>
+			            <Insulation_Cold>100</Insulation_Cold>
+                    </statBases>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milira_ArtemisArmor"]/equippedStatOffsets</xpath>
+                <value>
+                    <DecompressionResistance>0.75</DecompressionResistance>
+                    <VacuumSpeedMultiplier>4</VacuumSpeedMultiplier>
+                </value>
+            </li>
+            <!--米莉拉阿忒弥斯战甲（守御） Milira_ArtemisArmorII-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milira_ArtemisArmorII"]</xpath>
+                <value>
+                    <statBases>
+			            <Insulation_Cold>100</Insulation_Cold>
+                    </statBases>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milira_ArtemisArmorII"]/equippedStatOffsets</xpath>
+                <value>
+                    <DecompressionResistance>0.75</DecompressionResistance>
+                    <VacuumSpeedMultiplier>4</VacuumSpeedMultiplier>
+                </value>
+            </li>
+
+            <!--代达罗斯 Daedalus=================================================================-->
+            <!--米莉拉代达罗斯之冠 Milira_DaedalusHelmet-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Milira_DaedalusHelmet"]/statBases/Insulation_Cold</xpath>
+                <value>
+			        <Insulation_Cold>50</Insulation_Cold>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milira_DaedalusHelmet"]/equippedStatOffsets</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>0.25</DecompressionResistance>
+                </value>
+            </li>
+            <!--米莉拉代达罗斯战甲 Milira_DaedalusArmor-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Milira_DaedalusArmor"]/statBases/Insulation_Cold</xpath>
+                <value>
+			        <Insulation_Cold>100</Insulation_Cold>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milira_DaedalusArmor"]/equippedStatOffsets</xpath>
+                <value>
+                    <DecompressionResistance>0.75</DecompressionResistance>
+                    <VacuumSpeedMultiplier>4</VacuumSpeedMultiplier>
+                </value>
+            </li>
+            <!--米莉拉代达罗斯之翼 Milira_DaedalusWings-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milira_DaedalusWings"]/equippedStatOffsets</xpath>
+                <value>
+                    <VacuumSpeedMultiplier>1</VacuumSpeedMultiplier>
+                </value>
+            </li>
+
+            <!--没了 That's it=================================================================-->
+            
+        </operations>
+    </Operation>
+
+    <!--米莉安-->
+</Patch>
