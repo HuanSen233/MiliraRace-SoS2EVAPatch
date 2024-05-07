@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+        <operations>
+            <!--survival belt Apparel_SpaceSurvivalBelt==========================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/raceRestriction/whiteApparelList</xpath>
+                <value>
+                    <li>Apparel_SpaceSurvivalBelt</li>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+
+</Patch>
