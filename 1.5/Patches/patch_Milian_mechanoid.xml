@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--米莉安-->
+	<Operation Class="PatchOperationSequence">
+        <operations>
+            <!--米莉安 Milian=========================================================================-->
+            <!--士兵 Race_Milian_Pawn==========================================================-->
+            <!--士兵I型 Milian_Mechanoid_PawnI==========================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_PawnI"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>5</VacuumSpeedMultiplier>
+                </value>
+            </li>
+            <!--士兵II型 Milian_Mechanoid_PawnII========================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_PawnII"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>5</VacuumSpeedMultiplier>
+                </value>
+            </li>
+            <!--士兵III型 Milian_Mechanoid_PawnIII======================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_PawnIII"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>6</VacuumSpeedMultiplier>
+                </value>
+            </li>
+            <!--士兵IV型 Milian_Mechanoid_PawnIV========================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_PawnIV"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>6</VacuumSpeedMultiplier>
+                </value>
+            </li>
+
+            <!--骑士 Race_Milian_Knight==========================================================-->
+            <!--骑士I型 Milian_Mechanoid_KnightI========================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_KnightI"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>8</VacuumSpeedMultiplier>
+                </value>
+            </li>
+            <!--骑士II型 Milian_Mechanoid_KnightII======================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_KnightII"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>6</VacuumSpeedMultiplier>
+                </value>
+            </li>
+            <!--骑士III型 Milian_Mechanoid_KnightIII====================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_KnightIII"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>10</VacuumSpeedMultiplier>
+                </value>
+            </li>
+            <!--骑士IV型 Milian_Mechanoid_KnightIV======================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_KnightIV"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>5</VacuumSpeedMultiplier>
+                </value>
+            </li>
+
+            <!--主教 Race_Milian_Bishop==========================================================-->
+            <!--主教I型 Milian_Mechanoid_BishopI========================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_BishopI"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>6</VacuumSpeedMultiplier>
+                </value>
+            </li>
+            <!--主教II型 Milian_Mechanoid_BishopII======================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_BishopII"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>5</VacuumSpeedMultiplier>
+                </value>
+            </li>
+            <!--枢机主教 Milian_Mechanoid_BishopIV======================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_BishopIV"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>6</VacuumSpeedMultiplier>
+                </value>
+            </li>
+
+            <!--战车 Race_Milian_Rook==========================================================-->
+            <!--战车I型 Milian_Mechanoid_RookI==========================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_RookI"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>6</VacuumSpeedMultiplier>
+                </value>
+            </li>
+            <!--战车II型 Milian_Mechanoid_RookII==========================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_RookII"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>6</VacuumSpeedMultiplier>
+                </value>
+            </li>
+            <!--无畏战车 Milian_Mechanoid_RookIII==========================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_RookIII"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>6</VacuumSpeedMultiplier>
+                </value>
+            </li>
+            <!--不落要塞 Milian_Mechanoid_RookIV==========================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_RookIV"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>5</VacuumSpeedMultiplier>
+                </value>
+            </li>
+
+            <!--国王 Race_Milian_King==========================================================-->
+            <!--国王 Milian_Mechanoid_King================================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_King"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>5</VacuumSpeedMultiplier>
+                </value>
+            </li>
+
+            <!--没了 That's it=================================================================-->
+            
+        </operations>
+    </Operation>
+
+</Patch>
