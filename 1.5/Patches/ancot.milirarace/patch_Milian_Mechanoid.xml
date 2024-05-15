@@ -11,7 +11,7 @@
                 <value>
 			        <HypoxiaResistance>1</HypoxiaResistance>
                     <DecompressionResistance>1</DecompressionResistance>
-                    <VacuumSpeedMultiplier>5</VacuumSpeedMultiplier>
+                    <VacuumSpeedMultiplier>6</VacuumSpeedMultiplier>
                 </value>
             </li>
             <!--士兵II型 Milian_Mechanoid_PawnII========================================-->
@@ -20,7 +20,7 @@
                 <value>
 			        <HypoxiaResistance>1</HypoxiaResistance>
                     <DecompressionResistance>1</DecompressionResistance>
-                    <VacuumSpeedMultiplier>5</VacuumSpeedMultiplier>
+                    <VacuumSpeedMultiplier>6</VacuumSpeedMultiplier>
                 </value>
             </li>
             <!--士兵III型 Milian_Mechanoid_PawnIII======================================-->
@@ -99,13 +99,22 @@
                     <VacuumSpeedMultiplier>5</VacuumSpeedMultiplier>
                 </value>
             </li>
+            <!--执政官 Milian_Mechanoid_BishopIII=======================================-->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Milian_Mechanoid_BishopIII"]/statBases</xpath>
+                <value>
+			        <HypoxiaResistance>1</HypoxiaResistance>
+                    <DecompressionResistance>1</DecompressionResistance>
+                    <VacuumSpeedMultiplier>5</VacuumSpeedMultiplier>
+                </value>
+            </li>
             <!--枢机主教 Milian_Mechanoid_BishopIV======================================-->
             <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="Milian_Mechanoid_BishopIV"]/statBases</xpath>
                 <value>
 			        <HypoxiaResistance>1</HypoxiaResistance>
                     <DecompressionResistance>1</DecompressionResistance>
-                    <VacuumSpeedMultiplier>6</VacuumSpeedMultiplier>
+                    <VacuumSpeedMultiplier>10</VacuumSpeedMultiplier>
                 </value>
             </li>
 
