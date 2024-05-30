@@ -158,14 +158,14 @@
 
             <!--国王 Race_Milian_King==========================================================-->
             <!--国王 Milian_Mechanoid_King================================================-->
-            <li Class="PatchOperationAdd">
+            <!--<li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="Milian_Mechanoid_King"]/statBases</xpath>
                 <value>
 			        <HypoxiaResistance>1</HypoxiaResistance>
                     <DecompressionResistance>1</DecompressionResistance>
                     <VacuumSpeedMultiplier>5</VacuumSpeedMultiplier>
                 </value>
-            </li>
+            </li>-->
 
             <!--没了 That's it=================================================================-->
             

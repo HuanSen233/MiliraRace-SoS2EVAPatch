@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <packageId>huansen.MiliraSOS2</packageId>
-    <name>Milira Race SOS2EXP</name>
+    <packageId>huansen.MiliraRace.SoS2EVAPatch</packageId>
+    <name>Milira Race - SoS2 EVA Patch</name>
     <author>HuanSen233</author>
     <supportedVersions>
         <li>1.5</li>
@@ -10,11 +10,12 @@
         <li>
             <packageId>kentington.saveourship2</packageId>
             <displayName>Save Our Ship 2</displayName>
-			<downloadUrl>https://github.com/SonicTHI/SaveOurShip2Experimental</downloadUrl>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1909914131</downloadUrl>
         </li>
         <li>
             <packageId>Ancot.MiliraRace</packageId>
-            <displayName>Milira Race(Beta version)</displayName>
+            <displayName>Milira Race</displayName>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3256974620</downloadUrl>
         </li>
     </modDependencies>
 	<loadAfter>
@@ -24,8 +25,11 @@
 
     <modVersion>V1f4</modVersion>
     <description>
-    给米莉拉装备和米莉安上sos2补丁
+给米莉拉的护甲和米莉安上EVA补丁
+
+Github: https://github.com/HuanSen233/MiliraRace-SoS2EVAPatch
+MIT License: https://github.com/HuanSen233/MiliraRace-SoS2EVAPatch/blob/main/LICENSE
     </description>
 
-    <url>https://github.com/HuanSen233/MiliraSOS2</url>
+    <url>https://steamcommunity.com/sharedfiles/filedetails/?id=3257357150</url>
 </ModMetaData>

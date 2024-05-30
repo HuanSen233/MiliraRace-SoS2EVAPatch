@@ -1,2 +1,2 @@
-# MiliraSOS2
-给米莉拉上sos2补丁，仅此而已。
+# MiliraRace-SoS2EVAPatch
+给米莉拉的护甲和米莉安上EVA补丁
